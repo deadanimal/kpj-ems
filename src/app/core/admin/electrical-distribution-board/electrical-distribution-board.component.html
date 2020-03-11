@@ -1,0 +1,291 @@
+<div class="header pb-6">
+  <div class=" container-fluid">
+    <div class=" header-body">
+      <div class=" row align-items-center py-4">
+        <div class=" col-lg-6 col-7">
+          <h6 class=" h2 text-dark d-inline-block mb-0">
+            Electrical Distribution Board
+          </h6>
+
+          <nav
+            aria-label="breadcrumb"
+            class=" d-none d-md-inline-block ml-md-4"
+          >
+            <ol class=" breadcrumb breadcrumb-links breadcrumb-dark">
+              <li class=" breadcrumb-item">
+                <a href="javascript:void(0)"> <i class=" fas fa-home"> </i> </a>
+              </li>
+            </ol>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class=" container-fluid mt--6">
+  <div class="row">
+    <div class="col-6">
+      <div class="card">
+        <div class=" card-header bg-transparent">
+          <div class=" row align-items-center">
+            <div class=" col">
+              <h5 class=" h3 mb-0">Reason of Failure</h5>
+            </div>
+          </div>
+        </div>
+        <div class="card-body">
+          <div id="chartdivone" style="width: 100%; height: 400px"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="card">
+        <!-- Card header -->
+        <div class="card-header">
+          <!-- Title -->
+          <h5 class="h3 mb-0">Maintenance list</h5>
+        </div>
+        <!-- Card body -->
+        <div class="card-body p-0">
+          <!-- List group -->
+          <ul class="list-group list-group-flush" data-toggle="checklist">
+            <li
+              class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
+            >
+              <div
+                class="checklist-item checklist-item-success checklist-item-checked"
+              >
+                <div class="checklist-info">
+                  <h5 class="checklist-title mb-0">EDBKAJANG1</h5>
+                  <small>10:30 AM</small>
+                </div>
+                <div>
+                  <div
+                    class="custom-control custom-checkbox custom-checkbox-success"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="chk-todo-task-1"
+                      type="checkbox"
+                      checked=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="chk-todo-task-1"
+                    ></label>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
+            >
+              <div class="checklist-item checklist-item-warning">
+                <div class="checklist-info">
+                  <h5 class="checklist-title mb-0">EDBPENANG3</h5>
+                  <small>10:30 AM</small>
+                </div>
+                <div>
+                  <div
+                    class="custom-control custom-checkbox custom-checkbox-warning"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="chk-todo-task-2"
+                      type="checkbox"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="chk-todo-task-2"
+                    ></label>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
+            >
+              <div class="checklist-item checklist-item-info">
+                <div class="checklist-info">
+                  <h5 class="checklist-title mb-0">EDBRAWANG10</h5>
+                  <small>10:30 AM</small>
+                </div>
+                <div>
+                  <div
+                    class="custom-control custom-checkbox custom-checkbox-info"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="chk-todo-task-3"
+                      type="checkbox"
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="chk-todo-task-3"
+                    ></label>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li
+              class="checklist-entry list-group-item flex-column align-items-start py-4 px-4"
+            >
+              <div
+                class="checklist-item checklist-item-danger checklist-item-checked"
+              >
+                <div class="checklist-info">
+                  <h5 class="checklist-title mb-0">EDBSEREMBAN5</h5>
+                  <small>10:30 AM</small>
+                </div>
+                <div>
+                  <div
+                    class="custom-control custom-checkbox custom-checkbox-danger"
+                  >
+                    <input
+                      class="custom-control-input"
+                      id="chk-todo-task-4"
+                      type="checkbox"
+                      checked=""
+                    />
+                    <label
+                      class="custom-control-label"
+                      for="chk-todo-task-4"
+                    ></label>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class=" row">
+    <div class=" col">
+      <div class=" card">
+        <div class=" card-header border-0">
+          <h3 class=" mb-0">Electrical Distribution Board List</h3>
+        </div>
+
+        <div class=" table-responsive">
+          <table class=" table align-items-center table-flush">
+            <thead class=" thead-light">
+              <tr>
+                <th scope="col">No.</th>
+
+                <th scope="col">Device ID</th>
+
+                <th scope="col">Brand</th>
+
+                <th scope="col">Model</th>
+
+                <th scope="col">Location</th>
+
+                <th scope="col">Status</th>
+
+                <th scope="col"></th>
+              </tr>
+            </thead>
+
+            <tbody class=" list">
+              <tr>
+                <td>1</td>
+
+                <td>EDBKAJANG1</td>
+
+                <td>Panasonic</td>
+
+                <td>M-123</td>
+
+                <td>Kajang, Selangor</td>
+
+                <td><span class="badge badge-success">GOOD</span></td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>2</td>
+
+                <td>EDBPENANG3</td>
+
+                <td>Samsung</td>
+
+                <td>S-101</td>
+
+                <td>Bukit Mertajam, Pulau Pinang</td>
+
+                <td><span class="badge badge-warning">NEED MAINTENANCE</span></td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>3</td>
+
+                <td>EDBIPOH3</td>
+
+                <td>HAIER</td>
+
+                <td>H-404</td>
+
+                <td>Ipoh, Perak</td>
+
+                <td><span class="badge badge-success">GOOD</span></td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>4</td>
+
+                <td>EDBRAWANG10</td>
+
+                <td>Samsung</td>
+
+                <td>S-101</td>
+
+                <td>Rawang, Selangor</td>
+
+                <td><span class="badge badge-danger">FAIL</span></td>
+
+                <td></td>
+              </tr>
+
+              <tr>
+                <td>5</td>
+
+                <td>EDBSEREMBAN5</td>
+
+                <td>Sony</td>
+
+                <td>S-343</td>
+
+                <td>Seremban, Negeri Sembilan</td>
+
+                <td><span class="badge badge-warning">NEED MAINTENANCE</span></td>
+
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class=" card-footer py-4">
+          <nav aria-label="...">
+            <pagination
+              [totalItems]="25"
+              class="justify-content-end mb-0"
+              previousText="<i class='fas fa-angle-left'></i>"
+              nextText="<i class='fas fa-angle-right'></i>"
+            >
+            </pagination>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

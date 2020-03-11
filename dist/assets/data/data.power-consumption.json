@@ -1,0 +1,37 @@
+[
+    {
+      "Negeri": "Selangor",
+      "Latitude": 2.9857718,
+      "Longitude": 101.3749338
+    },
+    {
+      "Negeri": "Pulau Pinang",
+      "Latitude": 5.4119786,
+      "Longitude": 100.3399834
+    },
+    {
+      "Negeri": "Johor",
+      "Latitude": 1.366376,
+      "Longitude": 103.558782
+    },
+    {
+      "Negeri": "Johor",
+      "Latitude": 1.4392779,
+      "Longitude": 103.8907209
+    },
+    {
+      "Negeri": "Pahang",
+      "Latitude": 3.977667,
+      "Longitude": 103.4102479
+    },
+    {
+      "Negeri": "Terengganu",
+      "Latitude": 4.255507,
+      "Longitude": 103.47286
+    },   
+    {
+      "Negeri": "Sabah",
+      "Latitude": 3.2689153,
+      "Longitude": 113.066667
+    }
+]
