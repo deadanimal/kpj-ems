@@ -69,7 +69,7 @@
             <!-- Dropdown header -->
             <div class="px-3 py-3">
               <h6 class="text-sm text-muted m-0">
-                You have <strong class="text-primary">13</strong> notifications.
+                You have <strong class="text-primary">5</strong> notifications.
               </h6>
             </div>
             <!-- List group -->
@@ -81,23 +81,19 @@
                 <div class="row align-items-center">
                   <div class="col-auto">
                     <!-- Avatar -->
-                    <img
-                      alt="Image placeholder"
-                      src="assets/img/theme/team-1.jpg"
-                      class="avatar rounded-circle"
-                    />
+                    <i class="fas fa-exclamation-circle avatar rounded-circle"></i>
                   </div>
                   <div class="col ml--2">
                     <div
                       class="d-flex justify-content-between align-items-center"
                     >
-                      <div><h4 class="mb-0 text-sm">John Snow</h4></div>
+                      <div><h4 class="mb-0 text-sm">Cooling System</h4></div>
                       <div class="text-right text-muted">
                         <small>2 hrs ago</small>
                       </div>
                     </div>
                     <p class="text-sm mb-0">
-                      Let's meet at Starbucks at 11:30. Wdyt?
+                      Cooling System in Location 1 maintenance alert
                     </p>
                   </div>
                 </div>
@@ -109,23 +105,19 @@
                 <div class="row align-items-center">
                   <div class="col-auto">
                     <!-- Avatar -->
-                    <img
-                      alt="Image placeholder"
-                      src="assets/img/theme/team-2.jpg"
-                      class="avatar rounded-circle"
-                    />
+                    <i class="fas fa-exclamation-circle avatar round-circle"></i>
                   </div>
                   <div class="col ml--2">
                     <div
                       class="d-flex justify-content-between align-items-center"
                     >
-                      <div><h4 class="mb-0 text-sm">John Snow</h4></div>
+                      <div><h4 class="mb-0 text-sm">Electrical Distribution Board</h4></div>
                       <div class="text-right text-muted">
                         <small>3 hrs ago</small>
                       </div>
                     </div>
                     <p class="text-sm mb-0">
-                      A new issue has been reported for Argon.
+                      Electrical Distribution Board in Location 3 maintenance alert
                     </p>
                   </div>
                 </div>
@@ -137,23 +129,19 @@
                 <div class="row align-items-center">
                   <div class="col-auto">
                     <!-- Avatar -->
-                    <img
-                      alt="Image placeholder"
-                      src="assets/img/theme/team-3.jpg"
-                      class="avatar rounded-circle"
-                    />
+                    <i class="fas fa-exclamation-circle avatar round-circle"></i>
                   </div>
                   <div class="col ml--2">
                     <div
                       class="d-flex justify-content-between align-items-center"
                     >
-                      <div><h4 class="mb-0 text-sm">John Snow</h4></div>
+                      <div><h4 class="mb-0 text-sm">Fire Panel</h4></div>
                       <div class="text-right text-muted">
                         <small>5 hrs ago</small>
                       </div>
                     </div>
                     <p class="text-sm mb-0">
-                      Your posts have been liked a lot.
+                      Fire Panel in Location 14 maintenance alert.
                     </p>
                   </div>
                 </div>
@@ -165,23 +153,19 @@
                 <div class="row align-items-center">
                   <div class="col-auto">
                     <!-- Avatar -->
-                    <img
-                      alt="Image placeholder"
-                      src="assets/img/theme/team-4.jpg"
-                      class="avatar rounded-circle"
-                    />
+                    <i class="fas fa-exclamation-circle avatar round-circle"></i>
                   </div>
                   <div class="col ml--2">
                     <div
                       class="d-flex justify-content-between align-items-center"
                     >
-                      <div><h4 class="mb-0 text-sm">John Snow</h4></div>
+                      <div><h4 class="mb-0 text-sm">Door Access System</h4></div>
                       <div class="text-right text-muted">
                         <small>2 hrs ago</small>
                       </div>
                     </div>
                     <p class="text-sm mb-0">
-                      Let's meet at Starbucks at 11:30. Wdyt?
+                      Door Access System in Location 32 maintenance alert
                     </p>
                   </div>
                 </div>
@@ -193,23 +177,19 @@
                 <div class="row align-items-center">
                   <div class="col-auto">
                     <!-- Avatar -->
-                    <img
-                      alt="Image placeholder"
-                      src="assets/img/theme/team-5.jpg"
-                      class="avatar rounded-circle"
-                    />
+                    <i class="fas fa-exclamation-circle avatar round-circle"></i>
                   </div>
                   <div class="col ml--2">
                     <div
                       class="d-flex justify-content-between align-items-center"
                     >
-                      <div><h4 class="mb-0 text-sm">John Snow</h4></div>
+                      <div><h4 class="mb-0 text-sm">Water Leakage</h4></div>
                       <div class="text-right text-muted">
                         <small>3 hrs ago</small>
                       </div>
                     </div>
                     <p class="text-sm mb-0">
-                      A new issue has been reported for Argon.
+                      Water Leakage in Location 11 maintenance alert
                     </p>
                   </div>
                 </div>
@@ -232,7 +212,7 @@
               <span class="avatar avatar-sm rounded-circle">
                 <img
                   alt="Image placeholder"
-                  src="assets/img/theme/team-1.jpg"
+                  src="assets/img/avatar/default.png"
                 />
               </span>
               <div class="media-body ml-2 d-none d-lg-block">
@@ -247,6 +227,7 @@
             <div class=" dropdown-header noti-title">
               <h6 class="text-overflow m-0">Welcome!</h6>
             </div>
+            <!--
             <a
               routerLinkActive="active"
               [routerLink]="['/user-profile']"
@@ -274,9 +255,9 @@
               class="dropdown-item"
             >
               <i class="ni ni-support-16"></i> <span>Support</span>
-            </a>
+            </a>-->
             <div class="dropdown-divider"></div>
-            <a href="javascript:void()" class="dropdown-item">
+            <a [routerLink]="['/auth/login']" class="dropdown-item">
               <i class="ni ni-user-run"></i> <span>Logout</span>
             </a>
           </div>
