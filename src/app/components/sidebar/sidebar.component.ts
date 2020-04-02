@@ -40,8 +40,10 @@ export class SidebarComponent implements OnInit {
     const body = document.getElementsByTagName("body")[0];
     if (body.classList.contains("g-sidenav-pinned")) {
       misc.sidebar_mini_active = true;
+      // console.log('true')
     } else {
       misc.sidebar_mini_active = false;
+      // console.log('false')
     }
     if (misc.sidebar_mini_active === true) {
       body.classList.remove("g-sidenav-pinned");

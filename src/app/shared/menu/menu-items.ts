@@ -85,6 +85,12 @@ export const ROUTES: RouteInfo[] = [
     icontype: "fas fa-stethoscope text-default"
   },
   {
+    path: '/admin/reporting',
+    title: 'Reporting',
+    type: 'link',
+    icontype: 'fas fa-chart-pie text-default'
+  },
+  {
     path: "/admin/administration",
     title: "Administration",
     type: "sub",

@@ -26,6 +26,7 @@ import { DoorAccessSystemComponent } from './door-access-system/door-access-syst
 import { WaterLeakageComponent } from './water-leakage/water-leakage.component';
 import { TemperatureHumidityComponent } from './temperature-humidity/temperature-humidity.component';
 import { HealthProtectedEquipmentComponent } from './health-protected-equipment/health-protected-equipment.component';
+import { ReportingComponent } from './reporting/reporting.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { HealthProtectedEquipmentComponent } from './health-protected-equipment/
     WaterLeakageComponent,
     TemperatureHumidityComponent,
     HealthProtectedEquipmentComponent,
+    ReportingComponent,
   ],
   imports: [
     CommonModule,

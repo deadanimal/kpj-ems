@@ -10,6 +10,7 @@ import { DoorAccessSystemComponent } from './door-access-system/door-access-syst
 import { WaterLeakageComponent } from './water-leakage/water-leakage.component';
 import { TemperatureHumidityComponent } from './temperature-humidity/temperature-humidity.component';
 import { HealthProtectedEquipmentComponent } from './health-protected-equipment/health-protected-equipment.component';
+import { ReportingComponent } from './reporting/reporting.component';
 
 export const AdminRoutes: Routes = [
     {
@@ -62,6 +63,10 @@ export const AdminRoutes: Routes = [
             {
                 path: 'helpdesk',
                 component: HelpdeskComponent
+            },
+            {
+                path: 'reporting',
+                component: ReportingComponent
             }
         ]
     }
